@@ -10,6 +10,7 @@ model = GBRAS_Net()
 
 # model.summary()
 
+
 model_path = r'E:\gbras\Steganalysis\logs\model_GBRAS-Net_ALASKA_HUGO_04bpp_2021-11-11_14-53-18\saved-model-010-0.9785.hdf5'
 
 model.load_weights(model_path)
